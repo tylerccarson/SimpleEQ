@@ -61,13 +61,13 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="5" x="0.6274999999999999" y="0.5384615384615384" uiLastX_Normal="145"
-          uiLastY_Normal="224" uiopen_Normal="1">
+  <FILTER uid="5" x="0.6274999999999999" y="0.5384615384615384" uiLastX_Normal="136"
+          uiLastY_Normal="483" uiopen_Normal="1">
     <PLUGIN name="SimpleEQ" format="VST3" category="Fx" manufacturer="yourcompany"
             version="1.0.0" file="/Users/tylerccarson/Library/Audio/Plug-Ins/VST3/SimpleEQ.vst3"
-            uniqueId="7a8a41e" isInstrument="0" fileTime="17ef430839a" infoUpdateTime="17f033ff8c6"
+            uniqueId="7a8a41e" isInstrument="0" fileTime="17ef430839a" infoUpdateTime="17f0366fb38"
             numInputs="2" numOutputs="2" isShell="0" uid="acfec442"/>
-    <STATE>623.VMjLgXl....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9LCNy3BTEwlXmAiUYoWUrIVdA4hKAIlKTETRUAUSAAkKBolQY4BQlMTQlQkVscVLPASTGgjQIcUV2EjYic1cVM1ZAAkKIAkKt3hKt3hKlkzbtDjKTETRUAUSAAkKBolQY4BQ1MTQlQkVscVLPASTGgzT2ESX1UkQtDSQFEFLUYjKAolKA4hKt3hKt3hKt3BQt.UQpQUPvPjKAgDTZoVPP4RST4xT0MlLPASTGgjQIcUV2EjYic1cVM1ZAAkKIAkKt3hKt3hKt3RStDjKTETRUAUSAAkKBolQY4BQlMTQ1oWXxzDUioWP3Qkb3XjXqEjYic1cVM1ZAAkKIAkKt3hKt3hKt3hKt3hKTETRUAUSAAkKBolQY4BQ1ITQtTUVmMmQHYTRWk0cAY1XmcmUisVPP4RRP4hKt3hKt3hKxblKA4BUAkTUP0TPP4hPpYTVtPjcBUjKUk0YyYDRGUjUZQWPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKt3hKtPUPIUETMEDTtHjZFkkKDY1PE4RUYc1bFgTTUcEVxslQiQSPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hK2rhKt3hKt3hKt3hKt3haTU0PUQDU3sFaicVTWkEQEYzXmEDTtDDRTQlcEEiX4EDTtDDSt3xXt3hKt3hKt3hKlIUUMQUTPkzUZESQFM1ZQQEV5UjQ77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+    <STATE>623.VMjLgXl....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9LCNy3BTEwlXmAiUYoWUrIVdA4hKAIlKTETRUAUSAAkKBolQY4BQlMTQlQkVscVLPASTGgjQIcUV2EjYic1cVM1ZAAkKIAkKt3hKt3hKtvlZtDjKTETRUAUSAAkKBolQY4BQ1MTQlQkVscVLPASTGgzT2ESX1UkQtDSQFEFLUYjKAolKA4hKt3hKt3hKH4BQt.UQpQUPvPjKAgDTZoVPP4RST4xT0MlLPASTGgjQIcUV2EjYic1cVM1ZAAkKIAkKt3hKt3hKtfzUtDjKTETRUAUSAAkKBolQY4BQlMTQ1oWXxzDUioWP3Qkb3XjXqEjYic1cVM1ZAAkKIAkKt3hKt3hKt3hKt3hKTETRUAUSAAkKBolQY4BQ1ITQtTUVmMmQHYTRWk0cAY1XmcmUisVPP4RRP4hKt3hKt3hKxblKA4BUAkTUP0TPP4hPpYTVtPjcBUjKUk0YyYDRGUjUZQWPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hKt3hKtPUPIUETMEDTtHjZFkkKDY1PE4RUYc1bFgTTUcEVxslQiQSPlM1Y2Y0XqEDTtjDTt3hKt3hKt3hK2rhKt3hKt3hKt3hKt3haTU0PUQDU3sFaicVTWkEQEYzXmEDTtDDRTQlcEEiX4EDTtDDSt3xXt3hKt3hKt3hKlIUUMQUTPkzUZESQFM1ZQQEV5UjQ77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
     <LAYOUT>
       <INPUTS>
         <BUS index="0" layout="L R"/>
@@ -77,11 +77,11 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="6" x="0.53875" y="0.2788461538461539" uiLastX_Normal="195"
-          uiLastY_Normal="159" uiopen_Normal="1">
+  <FILTER uid="6" x="0.53875" y="0.2788461538461539" uiLastX_Normal="184"
+          uiLastY_Normal="86" uiopen_Normal="1">
     <PLUGIN name="AUAudioFilePlayer" format="AudioUnit" category="Generator"
             manufacturer="Apple" version="1.6.0" file="AudioUnit:Generators/augn,afpl,appl"
-            uniqueId="6163676e" isInstrument="0" fileTime="0" infoUpdateTime="17f033ff8c6"
+            uniqueId="6163676e" isInstrument="0" fileTime="0" infoUpdateTime="17f0366fb38"
             numInputs="0" numOutputs="2" isShell="0" uid="6163676e"/>
     <STATE>573.hAGaoMGcv.C1AHv.DTfAGfPBJr.Gc3wGgvUag4VclE1XzUmbkIGUjEFcg8EDarVPUAkbkMWYzAUYxMWZyQWYtQ2TzEFcksTY4c0b0IFc4AWYWYWYxMWZu4FUzkGbk8EDOXVZrUVKxUlYkIWYtMVYyQkag0VYRDFbvwFPgxvzM3vCPDQFXYTZrUlSg0VYWIUYmk1atMmWIM2TkwVYiQWYjYTZrU1WP7zKUMWYxM2KzkGakI2XiElby8lauPTYysFcuA2KTgVYfHDagM1ZfrTY4MGHs.hPx8FcnUlbyAxVy0lXc8BLy.RKfPUZmgFck4FHUAmKsA2LgJA0SPQEVbAFYngWRU1Yo8laD8VYywzauAmVRU1Yo8laDEFcg8EDPjzbSUFakMFckQlTkcVZu4lVRU1Yo8laNEVakgvSP.G..........fS8GK68+A...v0Ac.5e......v+......bvtE..fA..fXtXA..X....bcPGf9G..D.....n+A........................................................H5MB......InkSkcGHRU1Yo8laIHQXlAGaP.fDgU2YtEMHPXkQowVYfDCVU4FcoQGakQF.H.PF.XB.q.PR.DE.YAfW..G.0Afd.rG.8A.g.zH.UB.o.XO.3GP.A.Q.aDfKAjS.5DPqA3Z.4FftA7a.AGfwAjb.PC.......HP..........HB..................DP1</STATE>
     <LAYOUT>
