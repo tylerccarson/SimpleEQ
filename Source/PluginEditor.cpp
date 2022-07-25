@@ -76,12 +76,6 @@ void RotarySliderWithLabels::paint(juce::Graphics &g)
    
     auto sliderBounds = getSliderBounds();
     
-    // just here in case we need to debug with them
-//    g.setColour(Colours::red);
-//    g.drawRect(getLocalBounds());
-//    g.setColour(Colours::yellow);
-//    g.drawRect(sliderBounds);
-    
     getLookAndFeel().drawRotarySlider(g,
                                       sliderBounds.getX(),
                                       sliderBounds.getY(),
@@ -355,8 +349,6 @@ void ResponseCurveComponent::resized()
         g.drawHorizontalLine(y, left, right);
     }
     
-//    g.drawRect(getAnalysisArea());
-    
     g.setColour(Colours::lightgrey);
     const int fontHeight = 10;
     g.setFont(fontHeight);
@@ -407,6 +399,16 @@ void ResponseCurveComponent::resized()
         
         g.setColour(gDb == 0.f ? Colour(0u, 172u, 1u) : Colours::lightgrey);
         
+        g.drawFittedText(str, r, juce::Justification::centred, 1);
+        
+        // Now do left hand side
+        str.clear();
+        str << (gDb - 24.f);
+        
+        r.setX(1);
+        textWidth = g.getCurrentFont().getStringWidth(str);
+        r.setSize(textWidth, fontHeight);
+        g.setColour(Colours::lightgrey);
         g.drawFittedText(str, r, juce::Justification::centred, 1);
     }
 }
@@ -501,7 +503,7 @@ void SimpleEQAudioProcessorEditor::resized()
     // subcomponents in your editor..
     
     auto bounds = getLocalBounds();
-    float hRatio = 25.f / 100.f; // JUCE_LIVE_CONSTANT(33) / 100.f;
+    float hRatio = 25.f / 100.f;
     auto responseArea = bounds.removeFromTop(bounds.getHeight() * hRatio);
     
     responseCurveComponent.setBounds(responseArea);
