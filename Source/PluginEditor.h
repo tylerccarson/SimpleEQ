@@ -270,6 +270,9 @@ private:
     PathProducer leftPathProducer, rightPathProducer;
 };
 
+struct PowerButton  : juce::ToggleButton { };
+struct AnalyzerButton : juce::ToggleButton { };
+
 //==============================================================================
 /**
 */
@@ -309,7 +312,8 @@ private:
     lowCutSlopeSliderAttachment,
     highCutSlopeSliderAttachment;
     
-    juce::ToggleButton lowcutBypassButton, peakBypassButton, highcutBypassButton, analyzerEnabledButton;
+    PowerButton lowcutBypassButton, peakBypassButton, highcutBypassButton;
+    AnalyzerButton analyzerEnabledButton;
     
     using ButtonAttachment = APVTS::ButtonAttachment;
     ButtonAttachment lowcutBypassButtonAttachment,
